@@ -1,0 +1,29 @@
+{
+  "name": "nodecrud",
+  "version": "1.0.0",
+  "description": "crud operations",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node crud"
+  },
+  "keywords": [
+    "crud"
+  ],
+  "author": "manicibi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.0",
+    "multer": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}
