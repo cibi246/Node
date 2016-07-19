@@ -1,0 +1,14 @@
+{
+	"name":"nodeIntro",
+	"version":"0.0.1",
+	"description":"",
+	"author":{
+		"name": "Manivannan",
+		"email": "manivannan.baskaran@accenture.com",
+		"url": "http://manicibi.org"
+	},
+	"dependencies":{
+		"express":"*",
+		"ejs":"*"
+	}
+}

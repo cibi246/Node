@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EJS</title>
+	<link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+<h1>My EJS Page</h1>
+<% 
+	var title = "You are viewing a dynamic html page";
+
+	var names = ["Ajay","Cathlyn", "Cibi", "Mani"];
+	var random = Math.floor(Math.random()*names.length);
+	var name = names[random];
+%>
+<h1><%= title %></h1>
+<p>Hello my name is <strong><%=name %></strong></p>
+<% if(name.length >= 6 ){%>
+<span> Name has moe than 6 characters</span>
+<% }else{%>
+	<span>Name has less than 6 characters</span>
+<%}%>
+</body>
+</html>
